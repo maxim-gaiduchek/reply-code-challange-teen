@@ -1,0 +1,61 @@
+10
+9 5 7 9
+4
+acbcddadc
+bcddb
+addbcdd
+dbcddccda
+6 9 8 7
+4
+cbbddd
+dcabbdddb
+baabbddb
+aabbdda
+5 9 9 9
+3
+abjwd
+dfkbjwmtm
+legjwybjw
+ndabjwlfe
+7 7 10 8
+6
+iacyjzv
+acyjzvd
+aqbacyjzvm
+dpacyjzv
+9 6 5 5
+4
+stilkjzzh
+ilkjfr
+ilkjd
+wilkj
+8 9 6 10
+4
+ccaacaba
+cdcbacabd
+bacabb
+abbacabbbb
+7 5 7 5
+2
+cadbacd
+dbcbc
+aaabbdb
+bdbcc
+7 7 7 6
+6
+xbujnyv
+xbujnym
+dxbujny
+xbujny
+5 7 6 6
+4
+ccdba
+cdbabad
+acdbab
+abcdba
+6 10 5 10
+5
+aabcdc
+aadaabcdcc
+abcdc
+cbdbabcdcd

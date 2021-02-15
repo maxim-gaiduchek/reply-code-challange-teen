@@ -1,0 +1,55 @@
+package teen.year2019;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.math.BigInteger;
+import java.util.Scanner;
+
+/**
+ * @author Gaiduchek Maxim
+ */
+
+public class Problem2 {
+
+    private static final String INPUT_PATH = "C:/Users/Xiaomi/Desktop/Projects/Reply Code Challenge/2019/inputs/input-riceboard-bb7c.txt";
+    private static final String OUTPUT_PATH = "C:/Users/Xiaomi/Desktop/Projects/Reply Code Challenge/2019/output.txt";
+
+    public static void main(String[] args) throws IOException {
+        new FileOutputStream(OUTPUT_PATH).write(result().getBytes());
+        //System.out.println(result());
+    }
+
+    private static String result() throws FileNotFoundException {
+        Scanner scan = new Scanner(new FileInputStream(INPUT_PATH));
+        int T = scan.nextInt();
+        StringBuilder sb = new StringBuilder();
+        System.out.println(T);
+
+        for (int test = 1; test <= T; test++) {
+            long R = scan.nextLong(), N = scan.nextLong(), M = scan.nextLong();
+            System.out.println(R + " " + N + " " + M);
+            long grainsCounter = 0;
+
+            for (long i = 0; i < N * N; i++) {
+                grainsCounter += Math.pow(R, i);
+                grainsCounter %= M;
+            }
+
+            sb.append("Case #").append(test).append(": ").append(grainsCounter).append("\n");
+        }
+
+        return sb.toString();
+    }
+
+    private static BigInteger powBigInteger(BigInteger num, long pow) {
+        BigInteger res = BigInteger.valueOf(1);
+
+        for (long i = 0; i < pow; i++) {
+            res = res.multiply(num);
+        }
+
+        return res;
+    }
+}

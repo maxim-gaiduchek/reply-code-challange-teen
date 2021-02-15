@@ -1,0 +1,301 @@
+50
+7 7 10 8
+6
+zzmwedd
+hzzmwed
+pdyzzmwedl
+bmzzmwed
+7 8 8 6
+3
+fbgkvks
+yzcgkvyl
+gkvnpurf
+pkgkvg
+10 9 6 9
+5
+zfgwpntfxr
+zctntfxry
+ntfxrw
+loknntfxr
+10 9 5 6
+2
+yjjmydjntl
+jjtkzpvsm
+jjvlb
+qnmgjj
+10 10 7 10
+4
+ddadadbdda
+daadabdada
+dadacdb
+cadadadabb
+9 6 7 9
+6
+secfnvdqr
+cfnvdq
+cfnvdqc
+ccfnvdqez
+5 8 10 6
+3
+mzohs
+wjvoohsm
+zvohsjegiq
+johsam
+6 9 8 6
+4
+ddbacd
+acbdbacdb
+aaaabacd
+cdbacd
+8 8 8 5
+2
+addccaab
+abdbdbab
+cabcbdca
+ddabd
+7 8 5 5
+4
+babddad
+bddabbcb
+dbdda
+abdda
+10 10 10 5
+3
+bbadbcccad
+dbbadbcdac
+cadbdadbba
+adbca
+6 5 5 9
+3
+lqsjtv
+xjtvh
+ejtvd
+vyzemijtv
+10 8 5 9
+3
+abdcadddda
+addabaaa
+addcd
+ccaddabac
+10 10 9 5
+5
+obvzwwrydx
+vuwwrydqow
+mwwrydmbj
+wwryd
+8 5 10 8
+3
+juxsnfrr
+ibsnf
+wosnfvudbr
+rimsnfts
+5 5 8 10
+3
+bcaac
+acaab
+aacccaad
+caadcacacd
+7 9 10 9
+3
+aacccac
+cacdbbcda
+cadabcacca
+bacaccdbd
+5 8 6 10
+3
+bbdbb
+dbbacccc
+bdbbbd
+dadcadbdbb
+5 5 6 8
+4
+twdgx
+ytwdg
+tztwdg
+uimftwdg
+10 8 5 10
+3
+nnmdkjgnrn
+kupmzgnr
+gnrlw
+fjgnrxxyoz
+10 10 8 10
+4
+pdshqfqdjy
+dscxqfqdze
+ksxqfqde
+xqfqdnvvlh
+9 9 5 8
+5
+lpmajwsiy
+vvwtjwsiy
+jwsiy
+guajwsiy
+10 9 8 5
+5
+cnytfvxudu
+rzvxudurw
+rnvxudup
+vxudu
+9 5 6 7
+4
+dcbbacccc
+adcbb
+dcbbbc
+cddcbbc
+7 8 9 7
+7
+haqkofl
+ahaqkofl
+xzhaqkofl
+haqkofl
+9 8 10 9
+4
+ccbadadad
+ddcccbad
+ccbccbadab
+bddabcbad
+7 8 7 10
+4
+laalent
+qhnilaal
+qmlaalx
+laalnejcfn
+9 7 9 10
+3
+xjhkjddnx
+vwjdddu
+kjmbgrjdd
+rgjddobasa
+9 5 9 8
+2
+caaccddbd
+ccacb
+bbbdcdnac
+caacbbbd
+10 8 8 7
+7
+nvgrugfdxj
+unvgrugf
+nvgrugfb
+nvgrugf
+7 9 5 5
+5
+mpftmws
+pftmwvgvz
+pftmw
+pftmw
+8 5 5 5
+5
+onwbtzcz
+onwbt
+onwbt
+onwbt
+7 6 10 7
+5
+cbcdcdd
+bbcdcd
+cbcdcddadc
+abcdcda
+7 10 8 5
+2
+bacaddc
+acadadabbb
+addbbcdd
+bdadb
+5 9 8 6
+4
+bdabd
+dbbadabdd
+bcbdabda
+dddabd
+10 9 10 6
+6
+aacdadbdbb
+acdadbdaa
+bccdadbddc
+cdadbd
+10 6 9 8
+5
+fyniafhaca
+fyniaw
+axjfyniay
+gufynial
+8 9 9 5
+5
+ccabddba
+dacabddab
+bdbacabdd
+cabdd
+5 8 10 9
+3
+dacbb
+ccbbbcbb
+abdcbbabcd
+bdbcbbaab
+10 8 9 9
+7
+frdvoakwlr
+rdvoakwl
+vrdvoakwm
+zrdvoakwr
+5 10 9 10
+5
+ogiwv
+ygxsogiwvw
+vtyogiwvv
+jirogiwvjg
+6 8 10 8
+5
+ttvhjg
+stvhjgta
+xtvhjgdjrf
+gmatvhjg
+7 6 8 7
+3
+cvwaqwa
+aqaqwr
+zehaqwyj
+fbwpaqw
+10 5 6 8
+2
+ytvrcrgaoh
+ytwkl
+ailytl
+ythpitih
+8 5 7 8
+3
+bcababab
+ababc
+dabadaa
+dadbbaba
+6 5 10 7
+3
+ayhxxy
+djyhx
+yhxjkljcbv
+erafyhx
+6 5 6 9
+4
+thwzty
+wztyu
+iwztym
+ewztycodw
+10 7 5 6
+2
+bddccaddba
+dcacacd
+caccd
+aabdca
+6 6 9 9
+4
+abdaca
+abdacd
+abdaacdab
+dcabdaddb
+6 8 6 6
+3
+gpewry
+hkdiwryw
+nswryf
+wryauk
