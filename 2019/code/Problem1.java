@@ -13,63 +13,40 @@ import java.util.Scanner;
 
 public class Problem1 {
 
-    private static final String INPUT_PATH = "C:/Users/Xiaomi/Desktop/Projects/Reply Code Challenge/2019/inputs/input-teleportation-b3dd.txt";
+    private static final String INPUT_PATH = "C:/Users/Xiaomi/Desktop/Projects/Reply Code Challenge/2019/inputs/input-teleportation-8eb1.txt";
     private static final String OUTPUT_PATH = "C:/Users/Xiaomi/Desktop/Projects/Reply Code Challenge/2019/output.txt";
 
     public static void main(String[] args) throws IOException {
-        //new FileOutputStream(OUTPUT_PATH).write(result().getBytes());
-        System.out.println(result());
+        new FileOutputStream(OUTPUT_PATH).write(result().getBytes());
+        //System.out.println(result());
     }
 
     private static String result() throws FileNotFoundException {
-        //Scanner scan = new Scanner(new FileInputStream(INPUT_PATH));
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(new FileInputStream(INPUT_PATH));
+        //Scanner scan = new Scanner(System.in);
         int T = scan.nextInt();
-        long count = 0;
         StringBuilder sb = new StringBuilder();
 
         for (int test = 1; test <= T; test++) {
+            long count = 0;
             int gridX = scan.nextInt(), gridY = scan.nextInt();
-            int[][] grid = new int[gridY][gridX];
-            fillGrid(grid);
             int x = scan.nextInt(), y = scan.nextInt(); // qubit coords
-            int teleportsCount = scan.nextInt();
-            List<Teleport> teleports = new ArrayList<>();
+            int N = scan.nextInt();
+            List<Teleport> teleports = new ArrayList<>(N);
 
-            for (int i = 0; i < teleportsCount; i++) {
+            for (int i = 0; i < N; i++) {
                 int xin = scan.nextInt(), yin = scan.nextInt();
                 int xout = scan.nextInt(), yout = scan.nextInt();
 
                 teleports.add(new Teleport(xin, yin, xout, yout));
-
-                grid[yin][xin] = 1;
-                grid[yout][xout] = 3;
             }
-
-            System.out.println("Qubit cords -> " + x + " " + y);
-
-            grid[y][x] = 2;
-            System.out.println(Arrays.deepToString(grid));
-            grid[y][x] = 0;
-            System.out.println(teleports);
 
             while (teleports.size() != 0) {
                 Teleport teleport = getAimTeleport(teleports, x, y);
-                int deltaX = Math.abs(teleport.xin - x), deltaY = Math.abs(teleport.yin - y);
-                System.out.println("\nQubit cords -> " + x + " " + y);
-                System.out.println("Teleport -> " + teleport.xin + " " + teleport.yin + " -> " + teleport.xout + " " + teleport.yout + " - " + teleport);
-                System.out.println("Dist -> " + calcDist(teleport, x, y) + " (" + deltaX + " " + deltaY + ")" + " = " + (count + calcDist(teleport, x, y)));
 
                 count += calcDist(teleport, x, y);
                 x = teleport.xout;
                 y = teleport.yout;
-
-                grid[teleport.yin][teleport.xin] = 0;
-                grid[teleport.yout][teleport.xout] = 0;
-                grid[y][x] = 2;
-                System.out.println(Arrays.deepToString(grid));
-                grid[y][x] = 0;
-                System.out.println("Qubit cords -> " + x + " " + y);
 
                 teleports.remove(teleport);
             }
@@ -78,10 +55,6 @@ public class Problem1 {
         }
 
         return sb.toString();
-    }
-
-    private static void fillGrid(int[][] grid) {
-        for (int[] row : grid) Arrays.fill(row, 0);
     }
 
     private static int calcDist(Teleport teleport, int x, int y) {
@@ -95,7 +68,6 @@ public class Problem1 {
         for (int i = 0; i < teleports.size(); i++) {
             Teleport teleport = teleports.get(i);
             int dist = calcDist(teleport, x, y);
-            //System.out.println(dist + " " + minDist);
 
             if (i == 0) {
                 min = teleport;

@@ -1,5 +1,1 @@
-Case #1: 61
-Case #2: 121
-Case #3: 221
-Case #4: 241
-Case #5: 282
+Case #1: 5

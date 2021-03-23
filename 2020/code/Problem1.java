@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class Problem1 {
 
-    private static final String INPUT_PATH = "C:/Users/Xiaomi/Desktop/Projects/Reply Code Challenge/2020/inputs/input-scoreboard-50f4.txt";
+    private static final String INPUT_PATH = "C:/Users/Xiaomi/Desktop/Projects/Reply Code Challenge/2020/inputs/input-scoreboard-5a62.txt";
     private static final String OUTPUT_PATH = "C:/Users/Xiaomi/Desktop/Projects/Reply Code Challenge/2020/output.txt";
 
     public static void main(String[] args) throws IOException {

@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Problem2 {
 
-    private static final String INPUT_PATH = "C:/Users/Xiaomi/Desktop/Projects/Reply Code Challenge/2019/inputs/input-riceboard-75a2.txt";
+    private static final String INPUT_PATH = "C:/Users/Xiaomi/Desktop/Projects/Reply Code Challenge/2019/inputs/input-riceboard-d63d.txt";
     private static final String OUTPUT_PATH = "C:/Users/Xiaomi/Desktop/Projects/Reply Code Challenge/2019/output.txt";
 
     public static void main(String[] args) throws IOException {
@@ -33,7 +33,7 @@ public class Problem2 {
             BigInteger lastMultiply = BigInteger.valueOf(1);
 
             //System.out.println(lastMultiply);
-            for (long i = 1; i < N.longValue() * N.longValue(); i++) {
+            for (BigInteger i = BigInteger.ONE; i.compareTo(N.multiply(N)) < 0; i = i.add(BigInteger.ONE)) {
                 lastMultiply = lastMultiply.multiply(R);
                 grainsCounter = grainsCounter.add(lastMultiply.mod(M));
                 //System.out.println(lastMultiply + " " + lastMultiply.mod(M) + " " + grainsCounter);
@@ -43,13 +43,5 @@ public class Problem2 {
         }
 
         return sb.toString();
-    }
-
-    private static BigInteger powBigInteger(BigInteger num, long pow) {
-        BigInteger res = BigInteger.valueOf(1);
-
-        for (long i = 0; i < pow; i++) res = res.multiply(num);
-
-        return res;
     }
 }
